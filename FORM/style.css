@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    background-color: lightblue;
+}
+#corps{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    max-width: 40%;
+    margin: 100PX 500PX;
+    border-radius: 10px;
+
+}
+#entete{
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 1px 3px 5px brown;
+    font-size: 1.8em;
+}
+#droite{
+    padding-left: 5px;
+    display: block;
+    right: 300px;
+    top: -150px;
+}
+#form{
+    margin: 10px;
+    line-height: 1.5px;
+    display: flex;
+    flex-direction: column;
+}
+#groupe{
+    margin-top: 20px;
+}
+#e{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#e:hover{
+    background-color:yellow;
+    color:  lightblue;
+}
+label{
+    font-size: 1em;
+    text-shadow: 1px 0;
+
+}
+#i{
+    display: block;
+    left: 40px;
+}
+
